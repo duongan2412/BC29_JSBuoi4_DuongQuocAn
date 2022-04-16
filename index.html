@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 col-12">
+        <div class="card">
+          <div class="card-header font-weight-bold">
+            Bài 1: Sắp xếp số tăng dần
+          </div>
+          <div class="card-body">
+            <div class="form-group">
+              <label for="">Nhập số thứ 1</label>
+              <input type="text" class="form-control" id="txtNum11" aria-describedby="helpId">
+              <label for="">Nhập số thứ 2</label>
+              <input type="text" class="form-control" id="txtNum12" aria-describedby="helpId">
+              <label for="">Nhập số thứ 3</label>
+              <input type="text" class="form-control" id="txtNum13" aria-describedby="helpId">
+              <button id="btnSort" class="btn btn-primary mt-3">Sắp xếp</button>
+            </div>
+          </div>
+          <div class="card-footer text-muted" id="txtSort">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-12">
+        <div class="card">
+          <div class="card-header font-weight-bold">
+            Bài 2: Chương trình chào hỏi
+          </div>
+          <div class="card-body">
+            <div class="form-group">
+              <label for="">Ai đang sử dụng máy ?</label><br>
+              <label id="txtBo" class="radio-inline"><input id="radioBo" type="radio" name="optradio">Bố</label>
+              <label id="txtMe" class="radio-inline ml-4"><input id="radioMe" type="radio" name="optradio">Mẹ</label>
+              <label id="txtAnhTrai" class="radio-inline ml-4"><input id="radioAnhTrai" type="radio" name="optradio">Anh
+                Trai</label>
+              <label id="txtEmGai" class="radio-inline ml-4"><input id="radioEmGai" type="radio" name="optradio">Em
+                Gái</label>
+              <button id="btnHello" class="btn btn-primary mt-3">Say Hello!!</button>
+            </div>
+          </div>
+          <div class="card-footer text-muted" id="txtHello">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-12">
+        <div class="card">
+          <div class="card-header font-weight-bold">
+            Bài 3: Kiểm tra số chẵn, lẻ
+          </div>
+          <div class="card-body">
+            <div class="form-group">
+              <label for="">Nhập số thứ 1</label>
+              <input type="text" class="form-control" id="txtNum31" aria-describedby="helpId">
+              <label for="">Nhập số thứ 2</label>
+              <input type="text" class="form-control" id="txtNum32" aria-describedby="helpId">
+              <label for="">Nhập số thứ 3</label>
+              <input type="text" class="form-control" id="txtNum33" aria-describedby="helpId">
+              <button id="btnChanLe" class="btn btn-primary mt-3">Kiểm tra chẵn, lẻ</button>
+            </div>
+          </div>
+          <div class="card-footer text-muted" id="txtChanLe">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-12 mt-5">
+        <div class="card">
+          <div class="card-header font-weight-bold">
+            Bài 4: Kiểm tra tam giác
+          </div>
+          <div class="card-body">
+            <div class="form-group">
+              <label for="">Nhập chiều dài cạnh thứ 1</label>
+              <input type="text" class="form-control" id="txtNum41" aria-describedby="helpId">
+              <label for="">Nhập chiều dài cạnh thứ 2</label>
+              <input type="text" class="form-control" id="txtNum42" aria-describedby="helpId">
+              <label for="">Nhập chiều dài cạnh thứ 3</label>
+              <input type="text" class="form-control" id="txtNum43" aria-describedby="helpId">
+              <button id="btnTamGiac" class="btn btn-primary mt-3">Kiểm tra tam giác</button>
+            </div>
+          </div>
+          <div class="card-footer text-muted" id="txtTamGiac">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
